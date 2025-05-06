@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/employes_db
+  application:
+    name: ms-employe
+server:
+  port: 8082
