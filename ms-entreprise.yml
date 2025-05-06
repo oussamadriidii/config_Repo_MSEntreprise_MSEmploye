@@ -1,4 +1,3 @@
-
 spring:
   application:
     name: ms-entreprise
@@ -10,3 +9,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+
+server:
+  port: 9091
