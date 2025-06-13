@@ -3,7 +3,7 @@ spring:
     name: ms-employe
   data:
     mongodb:
-      uri: mongodb://localhost:27017/employes_db
+      uri: mongodb://${MONGO_SERVER:localhost}:27017/employes_db
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
